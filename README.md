@@ -1,5 +1,5 @@
 ### Как поднять проект  
-docker-composer up -d
+docker-composer up -d  
 composer install  
 cp .env.example .env  
 php artisan migrate  
